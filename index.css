@@ -1,11 +1,12 @@
-body{
-  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', 
-sans-serif;
+body {
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans",
+    "ヒラギノ角ゴシック", YuGothic, "Yu Gothic", "メイリオ", Meiryo,
+    "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 
-background-color: #fffbf4;
+  background-color: #fffbf4;
 }
 
-.contents{
+.contents {
   z-index: 100;
   background-color: white;
   border-radius: 5px;
@@ -15,4 +16,64 @@ background-color: #fffbf4;
   margin-bottom: 1%;
   padding: 1%;
   border: solid 1px rgb(204, 204, 204);
+}
+
+h2 {
+  border-bottom: solid 3px rgb(114, 114, 114);
+  color: #454545;
+}
+
+h3 {
+  position: relative;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+  text-align: center;
+}
+
+h3:after {
+  position: absolute;
+  content: "";
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #a8d4ff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.headingimg {
+ width: 30%;
+ display: block;
+ margin: auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.playbtn{
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: white;
+  background: #E67A7A;
+  transition: .4s;
+}
+
+.playbtn:hover{
+ box-shadow: 0px 2px 1px #b45959; 
+}
+
+.explantext{
+  padding-left:5%;
+  padding-right:5% ;
+  font-size: 1.2em;
+  color :#454545;
 }
