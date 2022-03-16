@@ -5,13 +5,11 @@
 
 
 header {
-  background-color: #9DDCDC;
+  background-color: #8ecfcf;
   color: white;
 }
 
-a title{
-  text-decoration:none;
-}
+
 
 .inner{
   max-width: 100%;
@@ -32,10 +30,11 @@ a title{
   list-style: none;
 }
 
-a:link, a:visited, a:hover, a:active {
+.header:link, .header:visited, .header:hover,.header:active {
   color: white;
   text-decoration:none;
 }
+
 
 footer {
   width: 100%;
@@ -43,6 +42,6 @@ footer {
   bottom: 0;
   text-align: center;
   padding: 20px 0;
-  background-color: #9DDCDC;
+  background-color: #8ecfcf;
   color: white;
 }
