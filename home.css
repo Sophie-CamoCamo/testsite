@@ -1,0 +1,177 @@
+/* section */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* ヘッダー画像 */
+.headerimage{
+  margin: auto;
+}
+
+/*顔写真*/
+.facephoto {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+
+.button {
+  border-radius: 100px;
+}
+
+.button-secondary {
+  opacity: 0.85;
+}
+
+/*about*/
+.about {
+  background-size: cover;
+  color: #000;
+  padding-bottom: 5rem;
+}
+
+.about-multiplier {
+  margin-top: 5rem;
+  margin-bottom: 0.1rem;
+  color: #000000;
+}
+.about-heading {
+  margin-bottom: .3rem;
+}
+.about-description {
+  opacity: 0.85;
+  font-weight: 300;
+}
+
+
+
+/*invention*/
+.invention {
+  background-image: url("nbg.jpg");
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.invention-multiplier {
+  margin-top: 5rem;
+  margin-bottom: 0.1rem;
+  color: #91fff2;
+}
+.invention-heading {
+  margin-bottom: 0.3rem;
+}
+.invention-description {
+  opacity: 0.85;
+  font-weight: 300;
+}
+
+.contact {
+  background-image: url("social1.jpg");
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.contact-multiplier {
+  margin-top: 6rem;
+  margin-bottom: 0.1rem;
+  color: #91fff2;
+  background: rgba(0, 0, 0, 0.8);
+}
+.contact-heading {
+  margin-bottom: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+.contact-description {
+  opacity: 0.85;
+  font-weight: 300;
+ 
+}
+
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+  .about {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+
+  .inventinon {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+
+  .contact {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+
+  .facephoto {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 362px;
+    z-index: 3;
+  }
+
+  .about-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .about {
+    height: 190px;
+  }
+  .about-heading {
+    font-size: 2.6rem;
+  }
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .facephoto {
+    top: -14rem;
+    right: 5rem;
+    max-height: 510px;
+  }
+
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+  .about {
+    padding: 22rem 0;
+  }
+  .about-heading {
+    font-size: 3.0rem;
+  }
+  .facephoto {
+    top: -16rem;
+    max-height: 615px;
+  }
+
+}
